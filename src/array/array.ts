@@ -40,4 +40,3 @@ export default function arraySample() {
   // commands[2] = "git pull" //書き換えようとしてもエラーが出る
   console.log("Array array sample5:", commands);
 }
-
