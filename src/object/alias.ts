@@ -46,7 +46,11 @@ export default function typeAliasSample() {
   type Adventure = Knight | Wizard
 
   //交差型(intersection)...KnightとWizard両方の型を持つ
+  //
   type Paladin = Knight & Wizard
+
+  //合併型(union型)はa |(または) b
+  //交差型(intersection型)はa &(かつ) b
 
   //Knightに成長していきたい冒険者(合併型)
   const adventure1: Adventure = {
